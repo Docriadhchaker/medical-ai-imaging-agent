@@ -1,66 +1,49 @@
-# 🩻 Medical Imaging Diagnosis Agent
+# Medical AI Imaging Agent
 
-A Medical Imaging Diagnosis Agent build on agno powered by Gemini 2.0 Flash that provides AI-assisted analysis of medical images of various scans. The agent acts as a medical imaging diagnosis expert to analyze various types of medical images and videos, providing detailed diagnostic insights and explanations.
+Built by **Dr Riadh Chaker**  
+Medical doctor · Expert in AI for healthcare
 
-## Features
+🔗 **Live demo**: https://med-imaging-agent.streamlit.app
 
-- **Comprehensive Image Analysis**
-  - Image Type Identification (X-ray, MRI, CT scan, ultrasound)
-  - Anatomical Region Detection
-  - Key Findings and Observations
-  - Potential Abnormalities Detection
-  - Image Quality Assessment
-  - Research and Reference
+---
 
-## How to Run
+## Overview
 
-1. **Setup Environment**
-   ```bash
-   # Clone the repository
-   git clone https://github.com/Shubhamsaboo/awesome-llm-apps.git
-   cd ai_agent_tutorials/ai_medical_imaging_agent
+This project is an AI powered medical imaging assistant that uses Google Gemini models to analyze medical images (X ray, CT, MRI, etc.) and generate:
 
-   # Install dependencies
-   pip install -r requirements.txt
-   ```
+- A structured radiology style report  
+- Key findings with severity  
+- Differential diagnoses with supporting arguments  
+- A patient friendly explanation in simple language  
+- References to recent medical literature via web search
 
-2. **Configure API Keys**
-   - Get Google API key from [Google AI Studio](https://aistudio.google.com)
+The app is built with:
 
-3. **Run the Application**
-   ```bash
-   streamlit run ai_medical_imaging.py
-   ```
+- **Streamlit** for the user interface  
+- **Agno** for agent orchestration  
+- **Google Gemini** for multimodal analysis (text + images)  
+- **DuckDuckGo tools** for web search
 
-## Analysis Components
+---
 
-- **Image Type and Region**
-  - Identifies imaging modality
-  - Specifies anatomical region
+## How to use
 
-- **Key Findings**
-  - Systematic listing of observations
-  - Detailed appearance descriptions
-  - Abnormality highlighting
+1. Open the live app: https://med-imaging-agent.streamlit.app  
+2. Enter your **Google API key** from [Google AI Studio](https://aistudio.google.com/apikey) in the sidebar  
+3. Upload a medical image (X ray, CT, MRI, ultrasound, etc.)  
+4. Click on **“Analyze Image”**  
+5. Review:
+   - Image type and region  
+   - Key findings  
+   - Diagnostic assessment  
+   - Patient friendly explanation  
+   - Suggested references
 
-- **Diagnostic Assessment**
-  - Potential diagnoses ranking
-  - Differential diagnoses
-  - Severity assessment
+---
 
-- **Patient-Friendly Explanations**
-  - Simplified terminology
-  - Detailed first-principles explanations
-  - Visual reference points
+## Screenshots
 
-## Notes
+screenshots/1.png
+screenshots/2.png
+screenshots/3.png
 
-- Uses Gemini 2.0 Flash for analysis
-- Requires stable internet connection
-- Free API usage costs -  1,500 free requests per day by google!
-- For educational and development purposes only
-- Not a replacement for professional medical diagnosis
-
-## Disclaimer
-
-This tool is for educational and informational purposes only. All analyses should be reviewed by qualified healthcare professionals. Do not make medical decisions based solely on this analysis.
