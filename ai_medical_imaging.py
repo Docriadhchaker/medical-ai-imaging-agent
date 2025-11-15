@@ -42,6 +42,12 @@ with st.sidebar:
         "Do not make medical decisions based solely on this analysis."
     )
 
+st.markdown("---")
+st.markdown(
+    "**Built by Dr Riadh Chaker**  \n"
+    "Medical doctor - Expert AI in healthcare"
+)
+
 medical_agent = Agent(
     model=Gemini(
         id="gemini-2.5-pro",
@@ -155,3 +161,9 @@ if uploaded_file is not None:
                     st.error(f"Analysis error: {e}")
 else:
     st.info("👆 Please upload a medical image to begin analysis")
+
+st.markdown("---")
+st.caption(
+    "Built by **Dr Riadh Chaker**  ·  Medical AI and imaging"
+)
+
