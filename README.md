@@ -44,6 +44,12 @@ The app is built with:
 ## Screenshots
 
 screenshots/1.png
+<img width="1884" height="942" alt="1" src="https://github.com/user-attachments/assets/239cc6e7-6326-4c3a-9bd2-e665d006473c" />
 screenshots/2.png
+<img width="1879" height="922" alt="2" src="https://github.com/user-attachments/assets/4c24df7a-a23b-4eec-9433-5474a3316436" />
 screenshots/3.png
+<img width="1869" height="984" alt="3" src="https://github.com/user-attachments/assets/6a3a2bf5-6ef4-469c-81cc-d7e9754ac474" />
+
+
+
 
